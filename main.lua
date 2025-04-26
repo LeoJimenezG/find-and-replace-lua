@@ -69,7 +69,7 @@ local function replace_all_occurrences (file_content)
     return new_content
 end
 
-local function count_all_ocurrences (file_content)
+local function count_all_occurrences (file_content)
     local element = file_content[1]
     local total_occurrences = 0
 
@@ -107,14 +107,14 @@ local function main()
 
         if user_option == 1 then
             local new_content = replace_all_occurrences(file_data)
-            print("->> All ocurrences replaced! <<-\n")
+            print("->> All occurrences replaced! <<-\n")
             write_new_file(new_content)
         elseif user_option == 2 then
-            local total_occurrences = count_all_ocurrences(file_data)
+            local total_occurrences = count_all_occurrences(file_data)
             print("->> Total occurrences found: " .. total_occurrences .. " <<-\n")
         elseif user_option == 3 then
             local new_content, total_occurrences = replace_and_count_all(file_data)
-            print("->> All ocurrences replaced! <<-")
+            print("->> All occurrences replaced! <<-")
             print("->> Total occurrences found: " .. total_occurrences .. " <<-\n")
             write_new_file(new_content)
         else
