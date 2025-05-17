@@ -15,11 +15,11 @@ Before anything else, make sure you have installed **Lua 5.x.x** or a newer vers
 1. **Clone the repository:**
 Open your prefered terminal and clone the project to your local machine.
     ```bash
-    git clone https://github.com/LeoJimenezG/find-and-replace-txt-lua.git
+    git clone https://github.com/LeoJimenezG/find-and-replace-txt.git
     ```
 2. **Navigate into the project directory:**
     ```bash
-    cd find-and-replace-txt-lua
+    cd find-and-replace-txt
     ```
 3. **Run the Application: Finally, execute the main script to launch the Find and Replace Txt Program**
     ```bash
