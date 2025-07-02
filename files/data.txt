@@ -1,0 +1,3 @@
+character-to-find
+character-to-use
+data
